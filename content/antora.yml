@@ -1,0 +1,9 @@
+---
+name: modules
+version: master
+
+asciidoc:
+  attributes:
+    lab_name: "Configure Stratis with the command line interface"
+    release-version: master
+    page-pagination: true

@@ -1,0 +1,21 @@
+---
+antora:
+  name: modules
+  dir: www
+  modules:
+    - name: "01-install-stratis"
+      label: "Install Stratis"
+      solveButton: true
+    - name: "02-manage-storage"
+      label: "Manage Storage"
+      solveButton: true
+    - name: "03-manage-filesystem"
+      label: "Manage Filesystem"
+      solveButton: true
+    - name: "04-manage-snapshots"
+      label: "Manage Snapshots"
+      solveButton: true
+
+tabs:
+  - name: ">_ terminal"
+    url: /wetty
