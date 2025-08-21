@@ -9,7 +9,7 @@ Create my_first_fs from the pool that you created, my_pool.
 
 [source,bash,run]
 ----
-stratis filesystem create my_pool my_first_fs
+sudo stratis filesystem create my_pool my_first_fs
 ----
 
 == List filesystems
@@ -27,7 +27,7 @@ same operation.
 ____
 
 .list fs
-image::../assets/listfs.png[list fs]
+image::listfs.png[list fs]
 
 == Rename a filesystem
 
@@ -39,7 +39,7 @@ Rename `+my_first_fs+` to a new name, `+my_fs+`.
 
 [source,bash,run]
 ----
-stratis filesystem rename my_pool my_first_fs my_fs
+sudo stratis filesystem rename my_pool my_first_fs my_fs
 ----
 
 Then list the result.
@@ -50,7 +50,7 @@ stratis fs
 ----
 
 .renamed
-image::../assets/renamedfs.png[renamed]
+image::renamedfs.png[renamed]
 
 == Mount a filesystem
 
@@ -64,14 +64,14 @@ mounted. You will mount the filesystem, `+my_fs+`, in the directory
 
 [source,bash,run]
 ----
-mkdir /mnt/test_mnt
+sudo mkdir /mnt/test_mnt
 ----
 
 Mount the filesystem using the `+mount+` command.
 
 [source,bash,run]
 ----
-mount /dev/stratis/my_pool/my_fs /mnt/test_mnt
+sudo mount /dev/stratis/my_pool/my_fs /mnt/test_mnt
 ----
 
 The mount point, `+/mnt/test_mnt+`, will now be the root directory of
@@ -89,7 +89,7 @@ mount
 ----
 
 .mount output
-image::../assets/mountoutput.png[mount output]
+image::mountoutput.png[mount output]
 
 From the above output, you can see that the filesystem is now mounted
 successfully in the `+/mnt/test_mnt+` directory.
@@ -100,12 +100,12 @@ Create two empty files in the filesystem, my_fs.
 
 [source,bash,run]
 ----
-touch /mnt/test_mnt/my_first_file
+sudo touch /mnt/test_mnt/my_first_file
 ----
 
 [source,bash,run]
 ----
-touch /mnt/test_mnt/my_second_file
+sudo touch /mnt/test_mnt/my_second_file
 ----
 
 Check that the files have been created.
@@ -116,6 +116,6 @@ ls /mnt/test_mnt
 ----
 
 .two files
-image::../assets/twofiles.png[two files]
+image::twofiles.png[two files]
 
 Both files are now accessible in the /mnt/test_mnt directory.
