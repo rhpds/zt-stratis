@@ -36,7 +36,7 @@ the command below.
 
 [source,bash,run]
 ----
-stratis pool create my_pool /dev/loop1
+sudo stratis pool create my_pool /dev/loop1
 ----
 
 List the pool you just created.
@@ -67,7 +67,7 @@ a data device to my_pool.
 
 [source,bash,run]
 ----
-stratis pool add-data my_pool /dev/loop2
+sudo stratis pool add-data my_pool /dev/loop2
 ----
 
 == List the block devices.

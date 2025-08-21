@@ -13,7 +13,7 @@ software package manager.
 
 [source,bash,run]
 ----
-dnf -y install stratisd stratis-cli
+sudo dnf -y install stratisd stratis-cli
 ----
 
 You can check the stratis-cli version.
@@ -28,7 +28,7 @@ utility.
 
 [source,bash,run]
 ----
-systemctl --now enable stratisd
+sudo systemctl --now enable stratisd
 ----
 
 At any point, you may also check the status of stratisd.
