@@ -39,7 +39,7 @@ systemctl status stratisd --no-pager
 ----
 
 .service listing
-image::../assets/images/service.png[service listing]
+image::service.png[service listing]
 
 If stratisd is running, you should see the Active: information report
 active (running) as it is shown in the above output from the systemctl
