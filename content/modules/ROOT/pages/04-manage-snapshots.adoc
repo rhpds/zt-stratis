@@ -88,7 +88,7 @@ ls /mnt/test_mnt_snap
 ----
 
 .list snapshot contents
-image::../assets/images/listsnapshotcontents.png[list snapshot contents]
+image::listsnapshotcontents.png[list snapshot contents]
 
 Both files are listed!
 
