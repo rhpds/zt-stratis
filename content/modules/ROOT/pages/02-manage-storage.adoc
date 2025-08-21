@@ -78,6 +78,6 @@ stratis blockdev list
 ----
 
 .list blockdev
-image::../assets/blkdevlist.png[list blockdev]
+image::../assets/images/blkdevlist.png[list blockdev]
 
 You can see that both /dev/loop1 and /dev/loop2 belong to my_pool.

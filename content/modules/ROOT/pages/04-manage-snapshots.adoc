@@ -21,7 +21,7 @@ stratis fs
 ----
 
 .snapshot
-image::../assets/snapshotlist.png[snapshot]
+image::../assets/images/snapshotlist.png[snapshot]
 
 You should see my_snapshot listed in the output.
 
@@ -45,7 +45,7 @@ ls /mnt/test_mnt
 ----
 
 .rm first file
-image::../assets/removefirstfile.png[rm first file]
+image::../assets/images/removefirstfile.png[rm first file]
 
 You can see that `+my_first_file+` has been removed from the directory,
 and only `+my_second_file+` remains.
@@ -75,7 +75,7 @@ mount
 ----
 
 .mounted snapshot
-image::../assets/mountedsnapshot.png[mounted snapshot]
+image::../assets/images/mountedsnapshot.png[mounted snapshot]
 
 From the output above, the snapshot is mounted on
 `+/mnt/test_mnt_snap+`.
@@ -88,7 +88,7 @@ ls /mnt/test_mnt_snap
 ----
 
 .list snapshot contents
-image::../assets/listsnapshotcontents.png[list snapshot contents]
+image::../assets/images/listsnapshotcontents.png[list snapshot contents]
 
 Both files are listed!
 
@@ -116,7 +116,7 @@ ls /mnt/test_mnt
 ----
 
 .copied back
-image::../assets/copiedback.png[copied back]
+image::../assets/images/copiedback.png[copied back]
 
 The filesystem, `+my_fs+`, now contains the previously deleted file,
 `+my_first_file+`.

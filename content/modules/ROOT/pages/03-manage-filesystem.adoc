@@ -27,7 +27,7 @@ same operation.
 ____
 
 .list fs
-image::../assets/listfs.png[list fs]
+image::../assets/images/listfs.png[list fs]
 
 == Rename a filesystem
 
@@ -50,7 +50,7 @@ stratis fs
 ----
 
 .renamed
-image::../assets/renamedfs.png[renamed]
+image::../assets/images/renamedfs.png[renamed]
 
 == Mount a filesystem
 
@@ -89,7 +89,7 @@ mount
 ----
 
 .mount output
-image::../assets/mountoutput.png[mount output]
+image::../assets/images/mountoutput.png[mount output]
 
 From the above output, you can see that the filesystem is now mounted
 successfully in the `+/mnt/test_mnt+` directory.
@@ -116,6 +116,6 @@ ls /mnt/test_mnt
 ----
 
 .two files
-image::../assets/twofiles.png[two files]
+image::../assets/images/twofiles.png[two files]
 
 Both files are now accessible in the /mnt/test_mnt directory.
