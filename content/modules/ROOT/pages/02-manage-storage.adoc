@@ -12,7 +12,7 @@ lsblk
 ----
 
 .lsblk
-image::../assets/lsblk.png[lsblk]
+image::../assets/images/lsblk.png[lsblk]
 
 The pseudo block devices `+loop1+` and `+loop2+` are available. We will
 use them to demonstrate the capabilities of Stratis.
@@ -49,7 +49,7 @@ stratis pool list
 The output should look similar to the following below.
 
 .pool output
-image::../assets/pooloutput.png[pool output]
+image::../assets/images/pooloutput.png[pool output]
 
 == Add another block device to the existing pool.
 
